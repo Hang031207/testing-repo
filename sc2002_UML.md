@@ -269,7 +269,9 @@ classDiagram
    StatusEffect <|.. ArcaneBlastBoost : implements
    StatusEffect <|.. DefendEffect: implements 
    StatusEffect <|.. SmokeBombEffect: implements
-```
+
+
+
 
 
 
@@ -279,3 +281,4 @@ classDiagram
    Goblin *-- EnemyStrategy : uses
    Wolf *-- EnemyStrategy : uses
    EnemyStrategy <|.. BasicAttackStrategy : implements
+```
